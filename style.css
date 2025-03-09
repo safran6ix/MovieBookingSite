@@ -18,7 +18,7 @@ body {
 header {
     width: 100%;
     background-color: white;
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,28 +27,51 @@ header {
 
 header .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header .search {
+    position: absolute;
     padding: 5px 10px;
-    width: 200px;
+    width: 400px;
+    height: 40px;
     border: 1px solid #ddd;
-    border-radius: 20px;
+    border-radius: 5px;
+    left: 37%;
+    font-weight: bold;
 }
 
-header .icons {
+.icons {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    width: 250px;
+    /* background-color: aqua; */
     gap: 15px;
 }
 
-header .icon {
-    font-size: 18px;
+.icon {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9090902e;
+    cursor: pointer;
 }
 
 header .profile {
     font-size: 24px;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000002e;
 }
 
 /* Feed Styling */
