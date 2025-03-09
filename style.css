@@ -17,7 +17,7 @@ body {
 /* Header Styling */
 header {
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@ header {
 }
 
 header .logo {
+    color: white;
     font-size: 24px;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -36,10 +37,14 @@ header .search {
     padding: 5px 10px;
     width: 400px;
     height: 40px;
-    border: 1px solid #ddd;
+    border: 1px solid grey;
     border-radius: 5px;
     left: 37%;
     font-weight: bold;
+    background-color: #000000;
+    color: white;
+    outline: none;
+    display: none;
 }
 
 .icons {
@@ -59,23 +64,25 @@ header .search {
     font-size: 15px;
     border: none;
     border-radius: 5px;
-    background-color: #9090902e;
+    background-color: #90909049;
     cursor: pointer;
+    color: white;
 }
 
 header .profile {
     font-size: 24px;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
-    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
     border: none;
     border-radius: 5px;
-    background-color: #0000002e;
+    background-color: #90909049;
+    color: white;
 }
 
-/* Feed Styling */
-.feed {
+/* posters Styling */
+.posters {
     width: 600px;
     margin-top: 20px;
 }
@@ -94,7 +101,7 @@ header .profile {
     justify-content: space-between;
 }
 
-.post-header .username {
+.post-header .moviename {
     font-weight: bold;
 }
 
@@ -120,6 +127,13 @@ header .profile {
 .post-actions span {
     font-size: 20px;
     cursor: pointer;
+}
+.booking-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(153, 255, 0);
+    border: none;
+    border-radius: 5px;
 }
 
 .post-description {
