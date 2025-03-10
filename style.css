@@ -136,6 +136,10 @@ header .profile {
     border: none;
     border-radius: 5px;
 }
+.booking-btn a{
+    color: #000000;
+    text-decoration: none;
+}
 
 .post-description {
     padding: 10px;
