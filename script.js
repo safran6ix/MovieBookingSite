@@ -23,3 +23,13 @@ document.querySelectorAll('.share').forEach(shareButton => {
         alert('Share functionality coming soon!');
     });
 });
+
+//Navbar Function
+const navbarcontainer = document.querySelector(".navbar-container");
+function navbar_slide_on(){
+   navbarcontainer.style.left = "0px";
+}
+
+function navbar_slide_off(){
+    navbarcontainer.style.l eft = "-800px";
+}

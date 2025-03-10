@@ -1,0 +1,19 @@
+@media screen and (max-width:460px) {
+    * {
+        transition: 400ms;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .posters {
+        width: 100%;
+    }
+    
+    .navbar-btn{
+        display: block;
+    }
+
+
+}
