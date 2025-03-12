@@ -89,7 +89,8 @@ header .profile {
     height: 40px;
     right: 15px;
     top: 15px;
-    background-color: white;
+    background-color: #000;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -104,7 +105,7 @@ header .profile {
     align-items: center;
     position: absolute;
     width: 50%;
-    height: 100%;
+    height: 150%;
     background-color: white;
     transition: 400ms;
     top: 0;
@@ -128,9 +129,23 @@ header .profile {
     cursor: pointer;
 }
 #navbar-house{
-    
+    position: absolute;
+    top: 100px;
+    background-color: black;
+    width: 85%;
 }
-
+#navbar-bell{
+    position: absolute;
+    top: 150px;
+    background-color: black;
+    width: 85%;
+}
+#navbar-envelope{
+    position: absolute;
+    top: 200px;
+    background-color: black;
+    width: 85%;
+}
 
 
 /* posters Styling */
