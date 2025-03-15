@@ -15,5 +15,8 @@
         display: block;
     }
 
+    .buy-card {
+        width: 95%;
+    }
 
 }
