@@ -153,20 +153,23 @@ header .profile {
     background-color: black;
     color: white;
     width: 85%;
+    height: 50px;
 }
 #navbar-bell{
     position: absolute;
-    top: 150px;
+    top: 170px;
     background-color: black;
     color: white;
     width: 85%;
+    height: 50px;
 }
 #shopping-cart{
     position: absolute;
-    top: 200px;
+    top: 240px;
     background-color: black;
     color: white;
     width: 85%;
+    height: 50px;
 }
 
 
