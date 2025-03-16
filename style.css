@@ -251,10 +251,10 @@ footer {
 /*BOOKINGSITE.HTML_STYLE_HERE*/
 .buy-card{
     width: 600px;
-    margin-top: 120px;
+    margin-top: 10px;
 }
 .backword-btn{
-    margin-top: -50px;
+    /* margin-top: 0px; */
     margin-bottom: 20px;
     margin-left: 0px;
     padding: 25px;
