@@ -87,6 +87,9 @@ header .search {
     cursor: pointer;
     color: rgb(0, 0, 0);
 }
+.icon a{
+    color: black;
+}
 
 header .profile {
     font-size: 24px;
