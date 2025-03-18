@@ -13,11 +13,13 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+.header-img{
+    width: 100%;
+}
 /* Header Styling */
 header {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 85, 85, 0.752);
     padding: 60px 15px;
     display: flex;
     justify-content: space-between;
@@ -29,13 +31,12 @@ header {
 
 header .logo {
     position: absolute;
-    top: 20px;
     color: rgb(0, 0, 0);
     font-size: 24px;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.stream-title{
+/* .stream-title{
     text-align: center;
     position: absolute;
     color: rgb(0, 0, 0);
@@ -50,7 +51,7 @@ header .logo {
     height: 40px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
-}
+} */
 header .search {
     position: absolute;
     padding: 5px 10px;
@@ -107,12 +108,12 @@ header .profile {
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     right: 15px;
     top: 15px;
-    background-color: #ffffff;
-    color: black;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     cursor: pointer;
