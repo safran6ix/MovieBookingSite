@@ -24,6 +24,12 @@ document.querySelectorAll('.share').forEach(shareButton => {
     });
 });
 
+document.querySelectorAll('.payment-btn').forEach(paymentbtn => {
+    paymentbtn.addEventListener('click', function () {
+        alert('Payment functionality coming soon!');
+    });
+});
+
 //Navbar Function
 const navbarcontainer = document.querySelector(".navbar-container");
 function navbar_slide_on(){
