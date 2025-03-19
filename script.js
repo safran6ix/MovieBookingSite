@@ -34,7 +34,7 @@ document.querySelectorAll('.payment-btn').forEach(paymentbtn => {
 const navbarcontainer = document.querySelector(".navbar-container");
 function navbar_slide_on(){
    navbarcontainer.style.left = "0px";
-}
+};
 
 function navbar_slide_off(){
     navbarcontainer.style.left = "-800px";
