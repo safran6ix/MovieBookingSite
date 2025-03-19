@@ -15,7 +15,20 @@ body {
 }
 .header-img{
     width: 100%;
+    /* animation: ticker 10s linear infinite;
+    transition: 400ms; */
 }
+/* @keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+} */
+
+
 /* Header Styling */
 header {
     width: 100%;
