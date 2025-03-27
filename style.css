@@ -146,7 +146,7 @@ header .profile {
     background-color: white;
     transition: 400ms;
     top: 0;
-    left: -800px;
+    left: -100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
