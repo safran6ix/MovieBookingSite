@@ -159,8 +159,9 @@ header .profile {
     height: 40px;
     right: 15px;
     top: 15px;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -170,6 +171,7 @@ header .profile {
     top: 100px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    border: 1px solid grey;
     width: 85%;
     height: 50px;
 }
@@ -178,6 +180,7 @@ header .profile {
     top: 170px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    border: 1px solid grey;
     width: 85%;
     height: 50px;
 }
