@@ -37,5 +37,5 @@ function navbar_slide_on(){
 };
 
 function navbar_slide_off(){
-    navbarcontainer.style.left = "-800px";
+    navbarcontainer.style.left = "-100%";
 };
