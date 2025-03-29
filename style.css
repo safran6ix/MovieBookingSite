@@ -146,7 +146,7 @@ header .profile {
     background-color: white;
     transition: 400ms;
     top: 0;
-    /* left: -100%; */
+    left: -100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -171,7 +171,7 @@ header .profile {
     top: 100px;
     background-color: rgb(0, 183, 255);
     color: rgb(255, 255, 255);
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     width: 85%;
     height: 50px;
 }
@@ -180,7 +180,7 @@ header .profile {
     top: 170px;
     background-color: rgb(0, 183, 255);
     color: rgb(255, 255, 255);
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     width: 85%;
     height: 50px;
 }
